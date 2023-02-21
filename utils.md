@@ -15,3 +15,11 @@
 4- git init
 
 5- git add .
+
+6- git commit -m"Initialisation du projet"
+
+7- git branch -M main
+
+8- git push origin main
+git remote add origin https://github.com/Salimaz26/zinc.git
+git push -u origin main
