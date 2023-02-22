@@ -23,3 +23,10 @@
 8- git push origin main
 git remote add origin https://github.com/Salimaz26/zinc.git
 git push -u origin main
+
+
+Pour vider les caches avant git add . : 
+git rm -rf --cached .
+
+Pour avoir l'index en commande: 
+php -S localhost:8000 -d display_errors=1 -t public
